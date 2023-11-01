@@ -15,3 +15,8 @@ windows的powershell临时使用代理
 $env:http_proxy="http://127.0.0.1:10809"
 $env:https_proxy="http://127.0.0.1:10809"
 ```
+
+### 系统修复
+```powershell
+sfc /scannow
+```

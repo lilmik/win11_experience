@@ -21,6 +21,9 @@ $env:https_proxy="http://127.0.0.1:10809"
 DISM /Online /Cleanup-Image /CheckHealth
 ```
 ```powershell
+DISM /Online /Cleanup-Image /ScanHealth
+```
+```powershell
 DISM /Online /Cleanup-Image /RestoreHealth
 ```
 ```powershell
